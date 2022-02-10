@@ -1,9 +1,7 @@
 const { destinations } = require("./db");
 //server ask require express
-const express = require(express);
+const express = require("express");
 //express lib
-const res = require("express/lib/response");
-const { send } = require("express/lib/response");
 
 //PORT Variable
 const PORT = process.env.PORT || 3000;
@@ -16,6 +14,6 @@ server.listen(PORT, () => {
 });
 
 //Endpoints (Routes) are made up of the method and the path
-server.get("/", (res, req) => {
+server.get("/", (req, res) => {
   res.send(destionations);
 });
