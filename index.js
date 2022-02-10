@@ -1,6 +1,6 @@
 const { destinations } = require("./db");
 //server ask require express
-const express = required(express);
+const express = require(express);
 //express lib
 const res = require("express/lib/response");
 const { send } = require("express/lib/response");
