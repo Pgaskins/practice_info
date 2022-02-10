@@ -15,5 +15,5 @@ server.listen(PORT, () => {
 
 //Endpoints (Routes) are made up of the method and the path
 server.get("/", (req, res) => {
-  res.send(destionations);
+  res.send(destinations);
 });
