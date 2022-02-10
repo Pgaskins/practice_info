@@ -6,8 +6,9 @@ const res = require("express/lib/response");
 const { send } = require("express/lib/response");
 
 //PORT Variable
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 //Creates a express server sit
+
 const server = express();
 //use listen method()with port
 server.listen(PORT, () => {
