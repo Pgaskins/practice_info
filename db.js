@@ -1,8 +1,5 @@
-const destinations = [
-  {
-    destination: "Eiffel Tower",
-    location: "Paris, France",
-  },
-];
+//const { module } = require("module");
+const destinations = {};
+
 // export
 module.exports = { destinations };
